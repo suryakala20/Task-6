@@ -10,7 +10,7 @@ class HourlyEmployee : Person
     }
     public HourlyEmployee(string fn, string ln, string email, DateTime dob,
                           double hours, double rate)
-        : base(fn, ln, email, dob)
+        : base(fn, ln, email, dob) //note: Variable names do not matter here. Only the order and type of parameters must match the parent constructor. 
     {
         HoursWorked = hours;
         PayPerHour = rate;
